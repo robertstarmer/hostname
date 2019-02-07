@@ -4,6 +4,7 @@ metadata:
   labels:
     app: hostname
   name: hostname
+  namespace: staging
 spec:
   ports:
   - port: 80
