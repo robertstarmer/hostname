@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Change the file to create a new container
+
 HOSTNAME=`hostname`
 VERSION=${VERSION:-v1}
 cat > /usr/share/nginx/html/index.html <<EOF
