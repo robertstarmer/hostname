@@ -17,7 +17,7 @@ spec:
   selector:
     matchLabels:
       app: hostname
-      version: v2
+      version: v1
   strategy:
     rollingUpdate:
       maxSurge: 1
@@ -27,7 +27,7 @@ spec:
     metadata:
       labels:
         app: hostname
-        version: v2
+        version: v1
     spec:
       containers:
       - image: rstarmer/hostname:v1
