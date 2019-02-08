@@ -30,7 +30,7 @@ spec:
         version: v1
     spec:
       containers:
-      - image: rstarmer/hostname:v2
+      - image: rstarmer/hostname:v3
         imagePullPolicy: Always
         name: hostname
         resources: {}
